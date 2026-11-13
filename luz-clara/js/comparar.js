@@ -9,3 +9,4 @@ const pagado = false;
 console.log(hayFecha && pagado);  //false
 console.log(hayFecha || pagado);  //true
 console.log(!pagado);             //true
+
