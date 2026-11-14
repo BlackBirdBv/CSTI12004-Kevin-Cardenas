@@ -94,9 +94,19 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S04</td>
             <td>Variables, constantes, tipos y operadores</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S04/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S04/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Declaracion de variables, uso de tipos de datos, operadores comparadores y pedidos de datos en JavaScript </td>
+            <td align="center">
+                <a href="luz-clara/index.html" target="_blank" rel="noopener">Guia_1</a>
+                <a href="UA1/S04/solicitud/index.html" target="_blank" rel="noopener">Guia_2</a>
+                <a href="casa-tomillo/index.html" target="_blank" rel="noopener">Auto_1</a>
+                <a href="UA1/S04/presupuesto/index.html" target="_blank" rel="noopener">Auto_2</a>
+            </td>
+            <td align="center">
+                <a href="UA1/S04/capturas/S04_guiada_luz-clara.png" target="_blank" rel="noopener">Guia_1</a>
+                <a href="UA1/S04/capturas/S04_guiada_solicitud.png" target="_blank" rel="noopener">Guia_2</a>
+                <a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Auto_1</a>
+                <a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Auto_2</a>
+            </td>
         </tr>
         <tr>
             <td align="center">S05</td>

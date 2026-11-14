@@ -8,3 +8,4 @@ console.log(7 % 2);         //resido de 7 / 2 = 1
 let total = 1000;              //variable empieza en cero
 total += precio;            //igual que total = total + precio
 console.log(total);         //46000
+console.log("\n\n");

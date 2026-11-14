@@ -8,3 +8,4 @@ console.log(estudio, citas);  //valor de citas ahora es 4
 console.log(estudio);
 estudio = "otro estudio";
 console.log(estudio);
+console.log("\n\n");

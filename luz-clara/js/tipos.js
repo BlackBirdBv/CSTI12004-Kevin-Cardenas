@@ -9,3 +9,4 @@ console.log(typeof precio);     //number
 console.log(typeof horas);      //number 
 console.log(typeof desponible); //boolean 
 console.log(typeof notas);      //vacio 
+console.log("\n\n");

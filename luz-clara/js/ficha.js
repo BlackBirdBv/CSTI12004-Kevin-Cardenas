@@ -6,3 +6,4 @@ console.log("Tipo: \t\"Retrato\"");   //muestra las comillas
 console.log("Precio: \t\u20A145 000"); // \u20A1 == alt 189 ( ¢ )
 console.log("Tiempo: \t 1 hora \nlugar: \t\t San Jose"); //\n salto de linea
 console.warn("¡Quedan pocas fechas este mes!");       //aviso amarillo
+console.log("\n\n");
