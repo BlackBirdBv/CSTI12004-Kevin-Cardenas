@@ -96,24 +96,34 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td>Variables, constantes, tipos y operadores</td>
             <td align="left">Declaracion de variables, uso de tipos de datos, operadores comparadores y pedidos de datos en JavaScript </td>
             <td align="center">
-                <a href="luz-clara/index.html" target="_blank" rel="noopener">Guia_1</a>
-                <a href="UA1/S04/solicitud/index.html" target="_blank" rel="noopener">Guia_2</a>
-                <a href="casa-tomillo/index.html" target="_blank" rel="noopener">Auto_1</a>
-                <a href="UA1/S04/presupuesto/index.html" target="_blank" rel="noopener">Auto_2</a>
+                <a href="luz-clara/index.html" target="_blank" rel="noopener">G1</a>
+                <a href="UA1/S04/solicitud/index.html" target="_blank" rel="noopener">G2</a>
+                <a href="casa-tomillo/index.html" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S04/presupuesto/index.html" target="_blank" rel="noopener">A2</a>
             </td>
             <td align="center">
-                <a href="UA1/S04/capturas/S04_guiada_luz-clara.png" target="_blank" rel="noopener">Guia_1</a>
-                <a href="UA1/S04/capturas/S04_guiada_solicitud.png" target="_blank" rel="noopener">Guia_2</a>
-                <a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">Auto_1</a>
-                <a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">Auto_2</a>
+                <a href="UA1/S04/capturas/S04_guiada_luz-clara.png" target="_blank" rel="noopener">G1</a>
+                <a href="UA1/S04/capturas/S04_guiada_solicitud.png" target="_blank" rel="noopener">G2</a>
+                <a href="UA1/S04/capturas/S04_autonoma_casa-tomillo.png" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S04/capturas/S04_autonoma_presupuesto.png" target="_blank" rel="noopener">A2</a>
             </td>
         </tr>
         <tr>
             <td align="center">S05</td>
             <td>Números, textos, fechas y conversión de datos</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S05/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S05/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">Usos y aplicaciones de metodos y funciones (math, number, caracteres, textos y fechas)</td>
+            <td align="center">
+                <a href="luz-clara/index.html" target="_blank" rel="noopener">G1</a>
+                <a href="luz-clara/conversion.html" target="_blank" rel="noopener">G2</a>
+                <a href="casa-tomillo/contacto.html" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S05/index.html" target="_blank" rel="noopener">A2</a>
+            </td>
+            <td align="center">
+                <a href="UA1/S05/capturas/S05_guiada_luz-clara.png" target="_blank" rel="noopener">G1</a>
+                <a href="UA1/S05/capturas/S05_guiada_conversion.png" target="_blank" rel="noopener">G2</a>
+                <a href="UA1/S05/capturas/S05_autonoma_casa-tomillo.png" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S05/capturas/S05_autonoma_vuelto.png" target="_blank" rel="noopener">A2</a>
+            </td>
         </tr>
         <tr>
             <td align="center">S06</td>
@@ -537,26 +547,26 @@ conversión</b></summary>
   
 | # |             Expresión             | Mi predicción | Lo que mostró la consola | 
 |---|-----------------------------------|---------------|--------------------------| 
-| 1 | `Math.round(2.5)`                 |  |  | 
-| 2 | `Math.floor(9.99)`                |  |  | 
-| 3 | `"Luz".length`                    |  |  | 
-| 4 | `"casa".toUpperCase()`            |  |  | 
-| 5 | `parseInt("12.9 horas")`          |  |  | 
-| 6 | `Number("doce")`                  |  |  | 
-| 7 | `(3.14159).toFixed(2)`            |  |  | 
-| 8 | `typeof (10).toString()`          |  |  | 
-| 9 | `new Date(2026, 0, 1).getMonth()` |  |  | 
-| 10 | <code>`2 + 3 = ${2 + 3}`</code>  |  |  | 
+| 1 | `Math.round(2.5)`                 |       3       |            3             | 
+| 2 | `Math.floor(9.99)`                |       8       |            9             | 
+| 3 | `"Luz".length`                    |       3       |            3             | 
+| 4 | `"casa".toUpperCase()`            |     CASA      |           CASA           | 
+| 5 | `parseInt("12.9 horas")`          |       12      |            12            | 
+| 6 | `Number("doce")`                  |    error?     |           NaN            | 
+| 7 | `(3.14159).toFixed(2)`            |     3.14      |           3.14           | 
+| 8 | `typeof (10).toString()`          |      ???      |          string          | 
+| 9 | `new Date(2026, 0, 1).getMonth()` | 01 Enero 2026 |            0             | 
+| 10 | <code>`2 + 3 = ${2 + 3}`</code>  |     Nada      |           Nada           | 
   
 **Autoevaluación** 
   
-| Indicador | Sí | Aún no | 
-|---|---|---| 
-| Uso métodos de Math (round, floor, ceil). | | | 
-| Limpio y transformo textos (trim, toUpperCase, length). | | | 
-| Creo fechas recordando que los meses empiezan en 0. | | | 
-| Muestro montos en colones con Intl. | | | 
-| Elijo entre Number, parseInt y parseFloat. | | | 
+|                        Indicador                        | Sí | Aún no | 
+|---------------------------------------------------------|----|--------| 
+| Uso métodos de Math (round, floor, ceil).               | X  |        | 
+| Limpio y transformo textos (trim, toUpperCase, length). | X  |        | 
+| Creo fechas recordando que los meses empiezan en 0.     | X  |        | 
+| Muestro montos en colones con Intl.                     | X  |        | 
+| Elijo entre Number, parseInt y parseFloat.              | X  |        | 
   
 </details> 
 
