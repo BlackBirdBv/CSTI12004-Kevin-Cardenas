@@ -128,9 +128,23 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
         <tr>
             <td align="center">S06</td>
             <td>Decisiones y depuración en el navegador</td>
-            <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S06/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S06/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="left">usos y aplicaciones de condicionales, switch, operador ternario y depuracion en javascript</td>
+            <td align="center">
+                <a href="luz-clara/index.html" target="_blank" rel="noopener">G1</a>
+                <a href="luz-clara/js/promocion.js" target="_blank" rel="noopener">G2</a>
+                <a href="UA1/S06/nombre/index.html" target="_blank" rel="noopener">G3</a>
+                <a href="casa-tomillo/js/cupos.js" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S06/horario/index.html" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S06/depurar/index.html" target="_blank" rel="noopener">A3</a>
+            </td>
+            <td align="center">
+                <a href="UA1/S06/capturas/S06_guiada_luz-clara_1.png" target="_blank" rel="noopener">G1</a>
+                <a href="UA1/S06/capturas/S06_guiada_luz-clara_2.png" target="_blank" rel="noopener">G2</a>
+                <a href="UA1/S06/capturas/S06_guiada_nombre.png" target="_blank" rel="noopener">G3</a>
+                <a href="UA1/S06/capturas/S06_autonoma_casa-tomillo.png" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S06/capturas/S06_autonoma_horario.png" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S06/capturas/S06_autonoma_depurar.png" target="_blank" rel="noopener">A3</a>
+            </td>
         </tr>
         <tr>
             <td align="center">S07</td>
@@ -569,6 +583,39 @@ conversión</b></summary>
 | Elijo entre Number, parseInt y parseFloat.              | X  |        | 
   
 </details> 
+
+<details> 
+<summary>▼<b>Clase 06 · 18/11/2026 · Decisiones y depuración</b></summary> 
+  
+**Ejercicio 1 · Pruebas de cupos.js** 
+  
+|        Prueba        |                  Mensajes que mostró la consola                  | 
+|----------------------|------------------------------------------------------------------| 
+|      cupos = 6       | Hay cupos disponibles, Quedan 6 cupos, No necesita experiencia   | 
+|      cupos = 2       | ¡Últimos cupos!, Quedan 2 cupos, No necesita experiencia         | 
+|      cupos = 0       | Taller llenom, Quedan 0 cuposm, No necesita experiencia          | 
+| nivel = "Intermedio" | Hay cupos disponibles, Quedan 6 cupos, Requiere el nivel inicial | 
+  
+**Ejercicio 3 · Cacería con DevTools** 
+  
+|                   Pregunta                   |             Respuesta              | 
+|----------------------------------------------|------------------------------------| 
+| ¿En qué línea puso el punto de interrupción? | 4                                  | 
+| ¿Qué valor tenía descuento al detenerse?     | 5%                                 | 
+| ¿Cuál era la causa del error?                | no tiene un rango definido         | 
+| ¿Cómo lo corrigió?                           | (monto >= 50000 && monto < 100000) | 
+  
+**Autoevaluación** 
+  
+|                               Indicador                               | Sí | Aún no | 
+|-----------------------------------------------------------------------|----|--------| 
+| Escribo if / else if / else con las condiciones en el orden correcto. | x  |        | 
+| Uso el ternario para elegir entre dos valores.                        | x  |        | 
+| Escribo switch con break y default.                                   | x  |        | 
+| Pongo un punto de interrupción y avanzo con F10.                      | x  |        | 
+| Uso try / catch para que el programa no se detenga.                   | x  |        | 
+  
+</details>
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
