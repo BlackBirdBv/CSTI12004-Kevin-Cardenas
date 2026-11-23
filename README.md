@@ -617,6 +617,33 @@ conversión</b></summary>
   
 </details>
 
+<details>
+<summary>▼<b>Clase 07 · 23/11/2026 · Repeticiones, vectores y matrices</b></summary>
+
+**¿Cuántas vueltas?**
+
+| # |                  Ciclo                  |   Mi predicción    |    Comprobado     |
+|---|-----------------------------------------|--------------------|-------------------|
+| 1 | `for (let i = 0; i < 5; i++)`           |  Repite 5          |     Repite 5      |
+| 2 | `for (let i = 1; i <= 5; i++)`          |  Repite 5          |     Repite 5      |
+| 3 | `for (let i = 0; i <= 5; i++)`          |  Repite 6          |     Repite 6      |
+| 4 | `let n = 10; while (n > 0) { n -= 3; }` |  Repite 4 (n = -2) | Repite 4 (n = -2) |
+| 5 | `let n = 0; do { n++; } while (n < 0);` |  Repite 1 (n = 1)  | Repite 1 (n = 1)  |
+| 6 | `for (let i = 10; i > 0; i -= 2)`       |  Repite 5 (i = 0)  | Repite 5 (i = 0)  |
+
+**Autoevaluación**
+
+|                      Indicador                      | Sí | Aún no |
+|-----------------------------------------------------|----|--------|
+| Elijo entre for, while y do while.                  |    |        |
+| Uso break y continue dentro de un ciclo.            |    |        |
+| Creo un vector y uso length, push, pop y join.      |    |        |
+| Recorro un vector con for y con for...of.           |    |        |
+| Leo una matriz con [fila][columna].                 |    |        |
+| Leo los datos de un vector de objetos con el punto. |    |        |
+
+</details>
+
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
 ---
