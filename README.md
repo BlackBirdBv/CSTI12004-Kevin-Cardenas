@@ -150,8 +150,18 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S07</td>
             <td>Repeticiones, vectores y matrices</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S07/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S07/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center">
+                <a href="luz-clara/index.html" target="_blank" rel="noopener">G1r</a>
+                <a href="casa-tomillo/cursos.html" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S07/semana/index.html" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S07/grupos/index.html" target="_blank" rel="noopener">A3</a>
+            </td>
+            <td align="center">
+                <a href="UA1/S07/capturas/S07_guiada_luz-clara.png" target="_blank" rel="noopener">G1</a>
+                <a href="UA1/S07/capturas/S07_autonoma_casa-tomillo.png" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S07/capturas/S07_autonoma_semana.png" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S07/capturas/S07_autonoma_grupos.png" target="_blank" rel="noopener">A3</a>
+            </td>
         </tr>
         <tr>
             <td align="center">S08</td>
@@ -635,12 +645,12 @@ conversión</b></summary>
 
 |                      Indicador                      | Sí | Aún no |
 |-----------------------------------------------------|----|--------|
-| Elijo entre for, while y do while.                  |    |        |
-| Uso break y continue dentro de un ciclo.            |    |        |
-| Creo un vector y uso length, push, pop y join.      |    |        |
-| Recorro un vector con for y con for...of.           |    |        |
-| Leo una matriz con [fila][columna].                 |    |        |
-| Leo los datos de un vector de objetos con el punto. |    |        |
+| Elijo entre for, while y do while.                  | x  |        |
+| Uso break y continue dentro de un ciclo.            | x  |        |
+| Creo un vector y uso length, push, pop y join.      | x  |        |
+| Recorro un vector con for y con for...of.           | x  |        |
+| Leo una matriz con [fila][columna].                 | x  |        |
+| Leo los datos de un vector de objetos con el punto. | x  |        |
 
 </details>
 
