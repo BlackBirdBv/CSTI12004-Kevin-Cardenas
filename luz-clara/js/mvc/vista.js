@@ -8,10 +8,8 @@ class VistaReservas {   //la clase de la vista. No tiene constructor porque no n
   }
   mostrarIngreso(monto) {
     console.log(`Ingresos: ¢${monto.toLocaleString("es-CR")}`);
-    
   }
   error(texto) {
     console.error(texto); //mensaje en rojo
-    
   }
 }
