@@ -167,8 +167,20 @@ Mod5_PrograWeb_EntornoCliente-Nombre/
             <td align="center">S08</td>
             <td>Funciones</td>
             <td align="left">(Completar al terminar la sesión)</td>
-            <td align="center"><a href="UA1/S08/" target="_blank" rel="noopener">Ver</a></td>
-            <td align="center"><a href="UA1/S08/capturas/" target="_blank" rel="noopener">Ver</a></td>
+            <td align="center">
+                <a href="luz-clara/contacto.html" target="_blank" rel="noopener">G1</a>
+                <a href="luz-clara/js/servicios.js" target="_blank" rel="noopener">G2</a>
+                <a href="casa-tomillo/js/funciones.js" target="_blank" rel="noopener">A1</a>
+                <a href="casa-tomillo/js/listado.js" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S08/turnos/index.html" target="_blank" rel="noopener">A3</a>
+            </td>
+            <td align="center">
+                <a href="UA1/S08/capturas/S08_guiada_luz-clara.png" target="_blank" rel="noopener">Ver</a>
+                <a href="UA1/S08/capturas/S08_guiada_servicios.png" target="_blank" rel="noopener">Ver</a>
+                <a href="UA1/S08/capturas/S08_autonoma_casa-tomillo.png" target="_blank" rel="noopener">A1</a>
+                <a href="UA1/S08/capturas/S08_autonoma_listado.png" target="_blank" rel="noopener">A2</a>
+                <a href="UA1/S08/capturas/S08_autonoma_turnos.png" target="_blank" rel="noopener">A3</a>
+            </td>
         </tr>
         <tr>
             <td align="center">S09</td>
@@ -659,27 +671,27 @@ conversión</b></summary>
 
 **¿Qué muestra?** (prediga y luego compruebe en la consola)
 
-| # |                         Código                         | Mi predicción | Comprobado |
-|---|--------------------------------------------------------|---------------|------------|
-| 1 | `let a = 1; function f() { let a = 2; return a; } f()` |               |            |
-| 2 | `(después de lo anterior) a`                           |               |            |
-| 3 | `function g() { let b = 5; } g(); b`                   |               |            |
-| 4 | `const doble = (n) => n * 2; doble(4)`                 |               |            |
-| 5 | `[1, 2, 3].map((n) => n * 10).join(", ")`              |               |            |
-| 6 | `[5, 8, 2].filter((n) => n > 4).length`                |               |            |
-| 7 | `const s = (x, y) => x + y; s(2)`                      |               |            |
+| # |                         Código                         | Mi predicción |  Comprobado  |
+|---|--------------------------------------------------------|---------------|--------------|
+| 1 | `let a = 1; function f() { let a = 2; return a; } f()` |       2       |      2       |
+| 2 | `(después de lo anterior) a`                           |       1       |      1       |
+| 3 | `function g() { let b = 5; } g(); b`                   |       8       |  undefined   |
+| 4 | `const doble = (n) => n * 2; doble(4)`                 |       8       |      8       |
+| 5 | `[1, 2, 3].map((n) => n * 10).join(", ")`              |      ???      | [10, 20, 30] |
+| 6 | `[5, 8, 2].filter((n) => n > 4).length`                |   [ 5, 8 ]    |      2       |
+| 7 | `const s = (x, y) => x + y; s(2)`                      |     NaN       |     NaN      |
 
 **Autoevaluación**
 
 |                   Indicador                    | Sí | Aún no |
 |------------------------------------------------|----|--------|
-| Declaro una función y la llamo con argumentos. |    |        |
-| Uso return y entiendo qué pasa si falta.       |    |        |
-| Escribo una función flecha.                    |    |        |
-| Valido los parámetros antes de calcular.       |    |        |
-| Distingo una variable global de una local.     |    |        |
-| Uso forEach, map y filter con un callback.     |    |        |
-| Reconozco un closure y predigo su salida.      |    |        |
+| Declaro una función y la llamo con argumentos. | x  |        |
+| Uso return y entiendo qué pasa si falta.       |    |   x    |
+| Escribo una función flecha.                    | x  |        |
+| Valido los parámetros antes de calcular.       | x  |        |
+| Distingo una variable global de una local.     | x  |        |
+| Uso forEach, map y filter con un callback.     | x  |        |
+| Reconozco un closure y predigo su salida.      |    |   x    |
 
 </details>
 
