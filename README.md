@@ -695,6 +695,44 @@ conversión</b></summary>
 
 </details>
 
+<details> 
+<summary>▼<b>Clase 09 · 25/11/2026 · Repaso guiado, objetos y clases</b></summary> 
+  
+**Problema → ventaja** (complete con sus palabras) 
+  
+|    Herramienta    | ¿Qué problema resuelve?                 | ¿Qué ventaja trae?             | 
+|-------------------|-----------------------------------------|--------------------------------| 
+| Vector            | guarda varios datos                     | acceder rapido por posicion    | 
+| Vector de objetos | guarda datos conplejos                  | manejar cantidades de datos    | 
+| Función           | codigo repetitivo                       | mantiene orden en el codigo    | 
+| forEach           | errores de indice                       | recorre los datos sin indice   | 
+| map               | buscar multiples elementos en una lista | encontara datos rapido         | 
+| filter            | bloques grandes de codigo               | filtra los datos necesarios    | 
+| Clase             | repetir estructuras de codigo           | orden y estructura en el codigo| 
+  
+**¿Qué muestra?** (prediga y luego compruebe en la consola) 
+  
+| # | Código                                                                                       | Mi predicción | Comprobado | 
+|---|----------------------------------------------------------------------------------------------|---------------|------------| 
+| 1 | `[3, 8, 1].map((n) => n * 2)`                                                                |  [6, 16, 2]   | [6, 16, 2] | 
+| 2 | `[3, 8, 1].filter((n) => n > 2)`                                                             |    [3, 8]     |   [3, 8]   | 
+| 3 | `const r = [3, 8, 1].forEach((n) => n * 2); r`                                               |   undefined   | undefined  | 
+| 4 | `[3, 8, 1].filter((n) => n > 5).map((n) => n + 1)`                                           |     [ 9 ]     |   [ 9 ]    | 
+| 5 | `class A { constructor(n) { this.n = n; } doble() { return this.n * 2; } } new A(4).doble()` |     error     |   [ 8 ]    | 
+| 6 | `const o = { n: 1 }; o.m`                                                                    |   undefined   | undefined  | 
+  
+**Autoevaluación** 
+  
+|                                 Indicador                                 | Sí | Aún no | 
+|---------------------------------------------------------------------------|----|--------| 
+| Explico por qué usar un vector de objetos en lugar de vectores paralelos. |    |   x    | 
+| Elijo entre for, for...of y forEach y explico por qué.                    |    |   x    | 
+| Reescribo un for + push con map y un for + if + push con filter.          |    |   x    | 
+| Creo un objeto con propiedades y un método.                               |    |   x    | 
+| Declaro una clase con constructor y la uso con new.                       |    |   x    | 
+| Explico qué hace el modelo, la vista y el controlador.                    |    |   x    | 
+</details>          
+
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
 
 ---
