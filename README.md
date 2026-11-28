@@ -725,12 +725,12 @@ conversión</b></summary>
   
 |                                 Indicador                                 | Sí | Aún no | 
 |---------------------------------------------------------------------------|----|--------| 
-| Explico por qué usar un vector de objetos en lugar de vectores paralelos. |    |   x    | 
-| Elijo entre for, for...of y forEach y explico por qué.                    |    |   x    | 
-| Reescribo un for + push con map y un for + if + push con filter.          |    |   x    | 
-| Creo un objeto con propiedades y un método.                               |    |   x    | 
-| Declaro una clase con constructor y la uso con new.                       |    |   x    | 
-| Explico qué hace el modelo, la vista y el controlador.                    |    |   x    | 
+| Explico por qué usar un vector de objetos en lugar de vectores paralelos. | x  |        | 
+| Elijo entre for, for...of y forEach y explico por qué.                    | x  |        | 
+| Reescribo un for + push con map y un for + if + push con filter.          | x  |        | 
+| Creo un objeto con propiedades y un método.                               | x  |        | 
+| Declaro una clase con constructor y la uso con new.                       | x  |        | 
+| Explico qué hace el modelo, la vista y el controlador.                    | x  |        | 
 </details>          
 
 > 📌 **AQUÍ SE PEGAN LOS BLOQUES NUEVOS.** Pegue el bloque de cada clase (desde `<details>` hasta `</details>`) justo **arriba** de este aviso. El aviso queda siempre al final de la sección.
