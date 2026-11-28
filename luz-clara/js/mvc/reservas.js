@@ -8,5 +8,3 @@ reservas.reservar("Luis Mora", "Perfil profesional", 38000);
 reservas.reservar("Prueba", "Individual", 0);
 reservas.actualizar();
 
-// console.log('this.modelo:', this.modelo);
-// console.log('typeof agregar:', typeof this.modelo?.agregar);
